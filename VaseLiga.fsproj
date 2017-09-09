@@ -1,6 +1,14 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageId>VaseLiga</PackageId>
+    <PackageVersion>0.1.0</PackageVersion>
+    <Authors>Sean McLemon</Authors>
+    <Description>A library to retrieve and parse results from vaseliga.cz</Description>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageReleaseNotes>Initial release</PackageReleaseNotes>
+    <Copyright>Copyright 2017 (c) Sean McLemon. All rights reserved.</Copyright>
+    <PackageTags>VaseLiga F#</PackageTags>    
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="CitySports.fs" />
